@@ -11,4 +11,10 @@ Needs tn3270 lib (https://github.com/zedsec390/tn3270lib) to run
 
 This is fairly barebones. Ideally you can read this guide
 (http://www.tommysprinkle.com/mvs/P3270/index.htm) to understand tn3270
-datastreams then edit fake3270.py line 72 to add your own TN3270 data. 
+datastreams then edit fake3270.py line 72 to add your own TN3270 data.
+
+## Usage
+
+./fake3270.py
+
+then connect with any tn3270 client (x3270/c3270/TN3270-X/Attachmate, whatever).
